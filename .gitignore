@@ -1,0 +1,9 @@
+/.config
+/.npm
+/node_modules
+/.npmrc
+/.yarnrc
+/lib
+/.env
+/.yarn
+/.cache

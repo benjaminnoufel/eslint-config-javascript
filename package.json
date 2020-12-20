@@ -1,0 +1,44 @@
+{
+    "name": "@benjaminnoufel/eslint-config-javascript",
+    "version": "0.1.0",
+    "description": "ESLint configuration presets",
+    "homepage": "https://github.com/benjaminnoufel/eslint-config-javascript#readme",
+    "main": "./lib/eslint.config.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "rollup --config rollup.config.js"
+    },
+    "author": {
+        "name": "Benjamin Noufel",
+        "email": "benjamin.noufel@gmail.com",
+        "url": "https://github.com/benjaminnoufel"
+    },
+    "keywords": [
+        "eslint",
+        "config",
+        "javascript"
+    ],
+    "files": [
+        "lib"
+    ],
+    "bugs": {
+        "url": "https://github.com/benjaminnoufel/eslint-config-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benjaminnoufel/eslint-config-javascript"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "@rollup/plugin-commonjs": "^17.0.0",
+        "@rollup/plugin-node-resolve": "^11.0.1",
+        "rollup": "^2.2.0",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-terser": "^7.0.2"
+    },
+    "peerDependencies": {
+        "eslint": "^7.15.0"
+    }
+}
