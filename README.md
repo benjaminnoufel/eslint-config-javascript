@@ -13,13 +13,13 @@ ESLint configuration presets
 ### NPM
 
 ```console
-$ npm install --save @benjaminnoufel/eslint-config-javascript
+$ npm install --save-dev @benjaminnoufel/eslint-config-javascript
 ```
 
 ### Yarn
 
 ```console
-$ yarn add @benjaminnoufel/eslint-config-javascript
+$ yarn add --dev @benjaminnoufel/eslint-config-javascript
 ```
 
 [npm]: https://www.npmjs.com/
