@@ -10,5 +10,5 @@ export default {
     "no-undef-init": "error",
     "no-undefined": "error",
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
-    "no-use-before-define": ["error", { "functions": true, "classes": true, "variables": true }],
+    "no-use-before-define": "off"
 };

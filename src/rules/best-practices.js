@@ -33,7 +33,6 @@ export default {
     "no-floating-decimal": "error",
     "no-global-assign": "error",
     "no-implicit-coercion": ["error", { "number": true, "string": true }],
-    "no-implicit-globals": "error",
     "no-implicit-globals": ["error", { "lexicalBindings": true }],
     "no-implied-eval": "error",
     "no-invalid-this": ["error", { "capIsConstructor": false }],

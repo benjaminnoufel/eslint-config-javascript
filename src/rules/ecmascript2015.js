@@ -26,7 +26,6 @@ export default {
     "prefer-spread": "error",
     "prefer-template": "error",
     "require-yield": "error",
-    "require-yield": "error",
     "rest-spread-spacing": ["error", "never"],
     "sort-imports": ["error", { "ignoreCase": false, "ignoreDeclarationSort": false, "ignoreMemberSort": false, "memberSyntaxSortOrder": ["none", "all", "single", "multiple"] }],
     "symbol-description": "error",
